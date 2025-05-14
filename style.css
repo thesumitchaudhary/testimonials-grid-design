@@ -118,14 +118,14 @@
   }
   
   
-  /* .heading-pattern {
+  .heading-pattern {
     @media (width > 960px) {
       background-image: url("./images/bg-pattern-quotation.svg");
       background-repeat: no-repeat;
-      background-size: auto 12px calc(100% - 20px);
-      background-position: right 10px center;
+      background-size: auto 12px calc(100% - 10px);
+      background-position: right 26px top;
     }
-  } */
+  }
 
   .testimonials-grid > :nth-child(1) {
     --testimonials-card-surface: var(--Primary-Purple-500);
@@ -160,12 +160,12 @@
     gap: 10px;
     margin-bottom: 10px;
 
-    @media (width > 960px) {
+    /* @media (width > 960px) {
       background-image: url("./images/bg-pattern-quotation.svg");
       background-repeat: no-repeat;
       background-size: auto calc(100% - 20px);
       background-position: right 10px center;
-    }
+    } */
   }
 
   .testimonials-grid-profile-section img {
